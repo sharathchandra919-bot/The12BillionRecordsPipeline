@@ -9,3 +9,6 @@ logs/
 spark-warehouse/
 *.parquet
 *.csv
+# Spark runtime state
+mnt/
+spark-warehouse/
