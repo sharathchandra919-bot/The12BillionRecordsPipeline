@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+.vscode/
+data/
+mnt/
+logs/
+spark-warehouse/
+*.parquet
+*.csv
