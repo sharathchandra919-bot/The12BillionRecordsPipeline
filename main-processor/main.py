@@ -111,3 +111,8 @@ if __name__ == "__main__":
   create_topic(TOPIC_NAME)
   producer_data_in_parallel(3)
 
+def main():
+    print("Pipeline entry point")
+
+if __name__ == "__main__":
+    main()
