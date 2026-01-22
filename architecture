@@ -1,0 +1,30 @@
+-project/
+│
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── settings.py
+│   ├── pipelines/
+│   │   ├── __init__.py
+│   │   └── streaming.py
+│   └── utils/
+│       ├── __init__.py
+│       └── helpers.py
+│
+├── jobs/
+│   └── spark_job.py
+│
+├── docker/
+│   └── docker-compose.yml
+│
+├── data/
+│   └── sample/
+│
+├── tests/
+│   └── test_basic.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
