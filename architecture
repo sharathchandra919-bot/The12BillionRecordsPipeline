@@ -1,29 +1,15 @@
--project/
-│
-├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── config/
-│   │   ├── __init__.py
-│   │   └── settings.py
-│   ├── pipelines/
-│   │   ├── __init__.py
-│   │   └── streaming.py
-│   └── utils/
-│       ├── __init__.py
-│       └── helpers.py
-│
+-The12BillionRecordsPipeline/
 ├── jobs/
-│   └── spark_job.py
+│   └── spark_processor.py
 │
 ├── docker/
 │   └── docker-compose.yml
 │
 ├── data/
-│   └── sample/
+│   └── main-processor/
 │
-├── tests/
-│   └── test_basic.py
+├── jars/
+│   └── spark-sql-kafka.jar
 │
 ├── requirements.txt
 ├── README.md
